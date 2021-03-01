@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0492043025EC81CF009AC8AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0492042F25EC81CF009AC8AF /* AppDelegate.swift */; };
+		0492043225EC81CF009AC8AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0492043125EC81CF009AC8AF /* ViewController.swift */; };
+		0492043425EC81D1009AC8AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0492043325EC81D1009AC8AF /* Assets.xcassets */; };
+		0492043725EC81D1009AC8AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0492043525EC81D1009AC8AF /* Main.storyboard */; };
+		0492044325EC81D1009AC8AF /* RkAppIconsGeneratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0492044225EC81D1009AC8AF /* RkAppIconsGeneratorTests.swift */; };
+		0492044E25EC81D1009AC8AF /* RkAppIconsGeneratorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0492044D25EC81D1009AC8AF /* RkAppIconsGeneratorUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0492043F25EC81D1009AC8AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0492042425EC81CF009AC8AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0492042B25EC81CF009AC8AF;
+			remoteInfo = RkAppIconsGenerator;
+		};
+		0492044A25EC81D1009AC8AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0492042425EC81CF009AC8AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0492042B25EC81CF009AC8AF;
+			remoteInfo = RkAppIconsGenerator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0492042C25EC81CF009AC8AF /* RkAppIconsGenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RkAppIconsGenerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0492042F25EC81CF009AC8AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0492043125EC81CF009AC8AF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0492043325EC81D1009AC8AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0492043625EC81D1009AC8AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0492043825EC81D1009AC8AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0492043925EC81D1009AC8AF /* RkAppIconsGenerator.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RkAppIconsGenerator.entitlements; sourceTree = "<group>"; };
+		0492043E25EC81D1009AC8AF /* RkAppIconsGeneratorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RkAppIconsGeneratorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0492044225EC81D1009AC8AF /* RkAppIconsGeneratorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RkAppIconsGeneratorTests.swift; sourceTree = "<group>"; };
+		0492044425EC81D1009AC8AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0492044925EC81D1009AC8AF /* RkAppIconsGeneratorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RkAppIconsGeneratorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0492044D25EC81D1009AC8AF /* RkAppIconsGeneratorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RkAppIconsGeneratorUITests.swift; sourceTree = "<group>"; };
+		0492044F25EC81D1009AC8AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0492042925EC81CF009AC8AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0492043B25EC81D1009AC8AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0492044625EC81D1009AC8AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0492042325EC81CF009AC8AF = {
+			isa = PBXGroup;
+			children = (
+				0492042E25EC81CF009AC8AF /* RkAppIconsGenerator */,
+				0492044125EC81D1009AC8AF /* RkAppIconsGeneratorTests */,
+				0492044C25EC81D1009AC8AF /* RkAppIconsGeneratorUITests */,
+				0492042D25EC81CF009AC8AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0492042D25EC81CF009AC8AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0492042C25EC81CF009AC8AF /* RkAppIconsGenerator.app */,
+				0492043E25EC81D1009AC8AF /* RkAppIconsGeneratorTests.xctest */,
+				0492044925EC81D1009AC8AF /* RkAppIconsGeneratorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0492042E25EC81CF009AC8AF /* RkAppIconsGenerator */ = {
+			isa = PBXGroup;
+			children = (
+				0492042F25EC81CF009AC8AF /* AppDelegate.swift */,
+				0492043125EC81CF009AC8AF /* ViewController.swift */,
+				0492043325EC81D1009AC8AF /* Assets.xcassets */,
+				0492043525EC81D1009AC8AF /* Main.storyboard */,
+				0492043825EC81D1009AC8AF /* Info.plist */,
+				0492043925EC81D1009AC8AF /* RkAppIconsGenerator.entitlements */,
+			);
+			path = RkAppIconsGenerator;
+			sourceTree = "<group>";
+		};
+		0492044125EC81D1009AC8AF /* RkAppIconsGeneratorTests */ = {
+			isa = PBXGroup;
+			children = (
+				0492044225EC81D1009AC8AF /* RkAppIconsGeneratorTests.swift */,
+				0492044425EC81D1009AC8AF /* Info.plist */,
+			);
+			path = RkAppIconsGeneratorTests;
+			sourceTree = "<group>";
+		};
+		0492044C25EC81D1009AC8AF /* RkAppIconsGeneratorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0492044D25EC81D1009AC8AF /* RkAppIconsGeneratorUITests.swift */,
+				0492044F25EC81D1009AC8AF /* Info.plist */,
+			);
+			path = RkAppIconsGeneratorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0492042B25EC81CF009AC8AF /* RkAppIconsGenerator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0492045225EC81D1009AC8AF /* Build configuration list for PBXNativeTarget "RkAppIconsGenerator" */;
+			buildPhases = (
+				0492042825EC81CF009AC8AF /* Sources */,
+				0492042925EC81CF009AC8AF /* Frameworks */,
+				0492042A25EC81CF009AC8AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RkAppIconsGenerator;
+			productName = RkAppIconsGenerator;
+			productReference = 0492042C25EC81CF009AC8AF /* RkAppIconsGenerator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0492043D25EC81D1009AC8AF /* RkAppIconsGeneratorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0492045525EC81D1009AC8AF /* Build configuration list for PBXNativeTarget "RkAppIconsGeneratorTests" */;
+			buildPhases = (
+				0492043A25EC81D1009AC8AF /* Sources */,
+				0492043B25EC81D1009AC8AF /* Frameworks */,
+				0492043C25EC81D1009AC8AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0492044025EC81D1009AC8AF /* PBXTargetDependency */,
+			);
+			name = RkAppIconsGeneratorTests;
+			productName = RkAppIconsGeneratorTests;
+			productReference = 0492043E25EC81D1009AC8AF /* RkAppIconsGeneratorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0492044825EC81D1009AC8AF /* RkAppIconsGeneratorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0492045825EC81D1009AC8AF /* Build configuration list for PBXNativeTarget "RkAppIconsGeneratorUITests" */;
+			buildPhases = (
+				0492044525EC81D1009AC8AF /* Sources */,
+				0492044625EC81D1009AC8AF /* Frameworks */,
+				0492044725EC81D1009AC8AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0492044B25EC81D1009AC8AF /* PBXTargetDependency */,
+			);
+			name = RkAppIconsGeneratorUITests;
+			productName = RkAppIconsGeneratorUITests;
+			productReference = 0492044925EC81D1009AC8AF /* RkAppIconsGeneratorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0492042425EC81CF009AC8AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				ORGANIZATIONNAME = Rathakrishnan;
+				TargetAttributes = {
+					0492042B25EC81CF009AC8AF = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					0492043D25EC81D1009AC8AF = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 0492042B25EC81CF009AC8AF;
+					};
+					0492044825EC81D1009AC8AF = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 0492042B25EC81CF009AC8AF;
+					};
+				};
+			};
+			buildConfigurationList = 0492042725EC81CF009AC8AF /* Build configuration list for PBXProject "RkAppIconsGenerator" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0492042325EC81CF009AC8AF;
+			productRefGroup = 0492042D25EC81CF009AC8AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0492042B25EC81CF009AC8AF /* RkAppIconsGenerator */,
+				0492043D25EC81D1009AC8AF /* RkAppIconsGeneratorTests */,
+				0492044825EC81D1009AC8AF /* RkAppIconsGeneratorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0492042A25EC81CF009AC8AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0492043425EC81D1009AC8AF /* Assets.xcassets in Resources */,
+				0492043725EC81D1009AC8AF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0492043C25EC81D1009AC8AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0492044725EC81D1009AC8AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0492042825EC81CF009AC8AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0492043225EC81CF009AC8AF /* ViewController.swift in Sources */,
+				0492043025EC81CF009AC8AF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0492043A25EC81D1009AC8AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0492044325EC81D1009AC8AF /* RkAppIconsGeneratorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0492044525EC81D1009AC8AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0492044E25EC81D1009AC8AF /* RkAppIconsGeneratorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0492044025EC81D1009AC8AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0492042B25EC81CF009AC8AF /* RkAppIconsGenerator */;
+			targetProxy = 0492043F25EC81D1009AC8AF /* PBXContainerItemProxy */;
+		};
+		0492044B25EC81D1009AC8AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0492042B25EC81CF009AC8AF /* RkAppIconsGenerator */;
+			targetProxy = 0492044A25EC81D1009AC8AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0492043525EC81D1009AC8AF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0492043625EC81D1009AC8AF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0492045025EC81D1009AC8AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0492045125EC81D1009AC8AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		0492045325EC81D1009AC8AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = RkAppIconsGenerator/RkAppIconsGenerator.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Y24AM9NS72;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = RkAppIconsGenerator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.arpa.RkAppIconsGenerator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		0492045425EC81D1009AC8AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = RkAppIconsGenerator/RkAppIconsGenerator.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Y24AM9NS72;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = RkAppIconsGenerator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.arpa.RkAppIconsGenerator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		0492045625EC81D1009AC8AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Y24AM9NS72;
+				INFOPLIST_FILE = RkAppIconsGeneratorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.arpa.RkAppIconsGeneratorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RkAppIconsGenerator.app/Contents/MacOS/RkAppIconsGenerator";
+			};
+			name = Debug;
+		};
+		0492045725EC81D1009AC8AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Y24AM9NS72;
+				INFOPLIST_FILE = RkAppIconsGeneratorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.arpa.RkAppIconsGeneratorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RkAppIconsGenerator.app/Contents/MacOS/RkAppIconsGenerator";
+			};
+			name = Release;
+		};
+		0492045925EC81D1009AC8AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Y24AM9NS72;
+				INFOPLIST_FILE = RkAppIconsGeneratorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.arpa.RkAppIconsGeneratorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = RkAppIconsGenerator;
+			};
+			name = Debug;
+		};
+		0492045A25EC81D1009AC8AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Y24AM9NS72;
+				INFOPLIST_FILE = RkAppIconsGeneratorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.arpa.RkAppIconsGeneratorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = RkAppIconsGenerator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0492042725EC81CF009AC8AF /* Build configuration list for PBXProject "RkAppIconsGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0492045025EC81D1009AC8AF /* Debug */,
+				0492045125EC81D1009AC8AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0492045225EC81D1009AC8AF /* Build configuration list for PBXNativeTarget "RkAppIconsGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0492045325EC81D1009AC8AF /* Debug */,
+				0492045425EC81D1009AC8AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0492045525EC81D1009AC8AF /* Build configuration list for PBXNativeTarget "RkAppIconsGeneratorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0492045625EC81D1009AC8AF /* Debug */,
+				0492045725EC81D1009AC8AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0492045825EC81D1009AC8AF /* Build configuration list for PBXNativeTarget "RkAppIconsGeneratorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0492045925EC81D1009AC8AF /* Debug */,
+				0492045A25EC81D1009AC8AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0492042425EC81CF009AC8AF /* Project object */;
+}
