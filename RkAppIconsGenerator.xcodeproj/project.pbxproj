@@ -7,12 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		046B0DCB25F21227003C02A0 /* RKAssetSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046B0DCA25F21227003C02A0 /* RKAssetSize.swift */; };
+		0488488025F0AA490021710F /* RKDragDropView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0488487F25F0AA490021710F /* RKDragDropView.swift */; };
+		048848C625F0D2470021710F /* RKAllowedFileTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048848C525F0D2470021710F /* RKAllowedFileTypes.swift */; };
 		0492043025EC81CF009AC8AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0492042F25EC81CF009AC8AF /* AppDelegate.swift */; };
 		0492043225EC81CF009AC8AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0492043125EC81CF009AC8AF /* ViewController.swift */; };
 		0492043425EC81D1009AC8AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0492043325EC81D1009AC8AF /* Assets.xcassets */; };
 		0492043725EC81D1009AC8AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0492043525EC81D1009AC8AF /* Main.storyboard */; };
 		0492044325EC81D1009AC8AF /* RkAppIconsGeneratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0492044225EC81D1009AC8AF /* RkAppIconsGeneratorTests.swift */; };
 		0492044E25EC81D1009AC8AF /* RkAppIconsGeneratorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0492044D25EC81D1009AC8AF /* RkAppIconsGeneratorUITests.swift */; };
+		04C4964425EE0A1900E172AD /* Contents_ios.json in Resources */ = {isa = PBXBuildFile; fileRef = 04C4964225EE0A1900E172AD /* Contents_ios.json */; };
+		04C4964525EE0A1900E172AD /* Contents_mac.json in Resources */ = {isa = PBXBuildFile; fileRef = 04C4964325EE0A1900E172AD /* Contents_mac.json */; };
+		04F28B7925ECC58200B87A76 /* NSImageExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F28B7825ECC58200B87A76 /* NSImageExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		046B0DCA25F21227003C02A0 /* RKAssetSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RKAssetSize.swift; sourceTree = "<group>"; };
+		0488487F25F0AA490021710F /* RKDragDropView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RKDragDropView.swift; sourceTree = "<group>"; };
+		048848C525F0D2470021710F /* RKAllowedFileTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RKAllowedFileTypes.swift; sourceTree = "<group>"; };
 		0492042C25EC81CF009AC8AF /* RkAppIconsGenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RkAppIconsGenerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0492042F25EC81CF009AC8AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0492043125EC81CF009AC8AF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -46,6 +55,9 @@
 		0492044925EC81D1009AC8AF /* RkAppIconsGeneratorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RkAppIconsGeneratorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0492044D25EC81D1009AC8AF /* RkAppIconsGeneratorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RkAppIconsGeneratorUITests.swift; sourceTree = "<group>"; };
 		0492044F25EC81D1009AC8AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04C4964225EE0A1900E172AD /* Contents_ios.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents_ios.json; sourceTree = "<group>"; };
+		04C4964325EE0A1900E172AD /* Contents_mac.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents_mac.json; sourceTree = "<group>"; };
+		04F28B7825ECC58200B87A76 /* NSImageExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSImageExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +108,10 @@
 		0492042E25EC81CF009AC8AF /* RkAppIconsGenerator */ = {
 			isa = PBXGroup;
 			children = (
+				04C4964225EE0A1900E172AD /* Contents_ios.json */,
+				04C4964325EE0A1900E172AD /* Contents_mac.json */,
+				04F28B7625ECC56A00B87A76 /* Extensions */,
+				0492046125EC94C4009AC8AF /* Utils */,
 				0492042F25EC81CF009AC8AF /* AppDelegate.swift */,
 				0492043125EC81CF009AC8AF /* ViewController.swift */,
 				0492043325EC81D1009AC8AF /* Assets.xcassets */,
@@ -122,6 +138,24 @@
 				0492044F25EC81D1009AC8AF /* Info.plist */,
 			);
 			path = RkAppIconsGeneratorUITests;
+			sourceTree = "<group>";
+		};
+		0492046125EC94C4009AC8AF /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				0488487F25F0AA490021710F /* RKDragDropView.swift */,
+				048848C525F0D2470021710F /* RKAllowedFileTypes.swift */,
+				046B0DCA25F21227003C02A0 /* RKAssetSize.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		04F28B7625ECC56A00B87A76 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				04F28B7825ECC58200B87A76 /* NSImageExtensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -186,6 +220,7 @@
 		0492042425EC81CF009AC8AF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = RK;
 				LastSwiftUpdateCheck = 1220;
 				LastUpgradeCheck = 1220;
 				ORGANIZATIONNAME = Rathakrishnan;
@@ -229,7 +264,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0492043425EC81D1009AC8AF /* Assets.xcassets in Resources */,
+				04C4964425EE0A1900E172AD /* Contents_ios.json in Resources */,
 				0492043725EC81D1009AC8AF /* Main.storyboard in Resources */,
+				04C4964525EE0A1900E172AD /* Contents_mac.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,7 +291,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				048848C625F0D2470021710F /* RKAllowedFileTypes.swift in Sources */,
 				0492043225EC81CF009AC8AF /* ViewController.swift in Sources */,
+				0488488025F0AA490021710F /* RKDragDropView.swift in Sources */,
+				04F28B7925ECC58200B87A76 /* NSImageExtensions.swift in Sources */,
+				046B0DCB25F21227003C02A0 /* RKAssetSize.swift in Sources */,
 				0492043025EC81CF009AC8AF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -423,6 +464,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = RkAppIconsGenerator/RkAppIconsGenerator.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = Y24AM9NS72;
@@ -434,6 +476,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.arpa.RkAppIconsGenerator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -444,6 +487,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = RkAppIconsGenerator/RkAppIconsGenerator.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = Y24AM9NS72;
@@ -455,6 +499,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.arpa.RkAppIconsGenerator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
