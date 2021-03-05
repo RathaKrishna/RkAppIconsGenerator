@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		046B0DCB25F21227003C02A0 /* RKAssetSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046B0DCA25F21227003C02A0 /* RKAssetSize.swift */; };
+		046B0DD025F221F4003C02A0 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 046B0DCF25F221F4003C02A0 /* README.md */; };
 		0488488025F0AA490021710F /* RKDragDropView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0488487F25F0AA490021710F /* RKDragDropView.swift */; };
 		048848C625F0D2470021710F /* RKAllowedFileTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048848C525F0D2470021710F /* RKAllowedFileTypes.swift */; };
 		0492043025EC81CF009AC8AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0492042F25EC81CF009AC8AF /* AppDelegate.swift */; };
@@ -40,6 +41,7 @@
 
 /* Begin PBXFileReference section */
 		046B0DCA25F21227003C02A0 /* RKAssetSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RKAssetSize.swift; sourceTree = "<group>"; };
+		046B0DCF25F221F4003C02A0 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		0488487F25F0AA490021710F /* RKDragDropView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RKDragDropView.swift; sourceTree = "<group>"; };
 		048848C525F0D2470021710F /* RKAllowedFileTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RKAllowedFileTypes.swift; sourceTree = "<group>"; };
 		0492042C25EC81CF009AC8AF /* RkAppIconsGenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RkAppIconsGenerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -88,6 +90,7 @@
 		0492042325EC81CF009AC8AF = {
 			isa = PBXGroup;
 			children = (
+				046B0DCF25F221F4003C02A0 /* README.md */,
 				0492042E25EC81CF009AC8AF /* RkAppIconsGenerator */,
 				0492044125EC81D1009AC8AF /* RkAppIconsGeneratorTests */,
 				0492044C25EC81D1009AC8AF /* RkAppIconsGeneratorUITests */,
@@ -265,6 +268,7 @@
 			files = (
 				0492043425EC81D1009AC8AF /* Assets.xcassets in Resources */,
 				04C4964425EE0A1900E172AD /* Contents_ios.json in Resources */,
+				046B0DD025F221F4003C02A0 /* README.md in Resources */,
 				0492043725EC81D1009AC8AF /* Main.storyboard in Resources */,
 				04C4964525EE0A1900E172AD /* Contents_mac.json in Resources */,
 			);
